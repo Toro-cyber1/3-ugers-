@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dg="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
+        x:Class="_3_ugers_gui_gruppe4.MainWindow"
+        Width="700" Height="560"
+        Title="Sortering GUI">
+
+    <Grid Margin="20" RowDefinitions="Auto,Auto,*,Auto" ColumnDefinitions="*,*"
+          ColumnSpacing="12" RowSpacing="10">
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Sorteringssystem" FontSize="20"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Spacing="10">
+            <Button Content="Opret testordre" Click="OpretTestordre_Click" />
+            <Button Content="Refresh jobliste" Click="RefreshJobs_Click" />
+            <Button Content="Test robot move" Click="TestRobotMove_Click" />
+            <Button x:Name="ResetRunningToQueuedButton" Content="Reset running → queued"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Spacing="10" HorizontalAlignment="Right">
+            <Button Content="Hent næste job (reserver)" Click="HentNaesteJob_Click" />
+            <Button Content="Markér seneste job Done" Click="MarkJobDone_Click" />
+        </StackPanel>
+
+        <dg:DataGrid Grid.Row="2" Grid.ColumnSpan="2"
+                     Name="JobsGrid"
+                     AutoGenerateColumns="True"
+                     IsReadOnly="True"
+                     Height="260"/>
+
+        <TextBox Grid.Row="3" Grid.ColumnSpan="2"
+                 Name="OutputBox"
+                 Height="180"
+                 AcceptsReturn="True"
+                 IsReadOnly="True"
+                 TextWrapping="Wrap"/>
+    </Grid>
+</Window>
