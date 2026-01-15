@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_DB", "App_DB\App_DB.csproj", "{B24C15C0-2002-4EF6-B492-93283079B910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Core", "App.Core\App.Core.csproj", "{8CDE3920-1FA3-4A4A-B715-AC417B18C8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-ugers-gui-gruppe4", "..\..\3-ugers-gui-gruppe4\3-ugers-gui-gruppe4\3-ugers-gui-gruppe4.csproj", "{758BF281-71B2-455F-A23D-0FEF17F67420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B24C15C0-2002-4EF6-B492-93283079B910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24C15C0-2002-4EF6-B492-93283079B910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24C15C0-2002-4EF6-B492-93283079B910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24C15C0-2002-4EF6-B492-93283079B910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDE3920-1FA3-4A4A-B715-AC417B18C8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDE3920-1FA3-4A4A-B715-AC417B18C8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDE3920-1FA3-4A4A-B715-AC417B18C8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDE3920-1FA3-4A4A-B715-AC417B18C8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758BF281-71B2-455F-A23D-0FEF17F67420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758BF281-71B2-455F-A23D-0FEF17F67420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758BF281-71B2-455F-A23D-0FEF17F67420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758BF281-71B2-455F-A23D-0FEF17F67420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
